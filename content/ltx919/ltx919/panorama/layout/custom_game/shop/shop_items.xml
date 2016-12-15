@@ -1,0 +1,15 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/styles/custom_game/shop/shop_items.css"/>
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/shop/shop_items.js"/>
+	</scripts>
+	<Panel hittest="false" class="AHToRight AWidth ShopItemRoot">
+		<Button id="ShopItemBtn" oncontextmenu="BuyItem()" onmouseover="OnMouseOver()" onmouseout="OnMouseOut()" onactivate="OnShowCompose()" ></Button>
+		<Panel id="ShopItemPanel" hittest="false">
+			<DOTAItemImage id="ItemImage" hittest="false" itemname=''/>
+		</Panel>
+	</Panel>
+</root>

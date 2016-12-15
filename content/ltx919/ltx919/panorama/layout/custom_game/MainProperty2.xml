@@ -1,0 +1,85 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/styles/custom_game/MainProperty2.css" />
+	</styles>
+	<!--background-image: url(file://{images}/custom_game/hong.png);-->
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/MainProperty2.js" />
+	</scripts>
+	<Panel class="MainRoot"  hittest="false" >
+		<Panel id="topbar" hittest="false">
+			<Panel id="myGold" hittest="false">
+				<Image id="gold_img" hittest="false" src="file://{images}/custom_game/CoinsIcon.png" />
+				<Label id="myGoldText" text="0" hittest="false"/>
+			</Panel>
+			<Panel id="ShengWang" hittest="false">
+				<Label id="ShengWangText" text="0" hittest="false"/>
+			</Panel>
+		</Panel>
+		<Panel class="MainPropertyRoot"  hittest="false">
+			<!--<Panel id="shuxingkuang" hittest="false">
+				<Image id="shuxingkuang_img" hittest="false" src="file://{images}/custom_game/property.png" />
+			</Panel>
+			
+			<Panel id="shuxingkuang2" hittest="false">
+				<Image id="shuxingkuang_img2" hittest="false" src="file://{images}/custom_game/property.png" />
+			</Panel>-->
+			<Panel id="rightPanel" hittest="false">
+				<!--<Button id="ShuXing" onactivate="BackSelf()">
+					<Panel id="HeroName" hittest="false">
+						<Label id="HeroNameText" text="0" hittest="false"/>
+					</Panel>
+					<Panel id="HeroDamage" hittest="false">
+						<Label id="HeroDamageText" text="0" hittest="false"/>
+						<Label id="HeroDamageText2" text="0" hittest="false"/>
+					</Panel>
+					<Panel id="HeroArmor" hittest="false">
+						<Label id="HeroArmorText" text="0" hittest="false"/>
+					</Panel>
+					<Panel id="MoveSpeedValue" hittest="false">
+						<Label id="MoveSpeedValueText" text="0" hittest="false"/>
+					</Panel>
+					<Panel id="MagicResistence" hittest="false" >
+						<Label id="MagicResistenceText" text="0" hittest="false"/>
+					</Panel>
+					<Panel id="AttackSpeed" hittest="false">
+						<Label id="AttackSpeedText" text="0" hittest="false"/>
+					</Panel>
+				</Button>-->
+				<Panel id="HpAndMana" hittest="false">
+					<Button id="HealthOverlayPanel" onmouseover="ShowP(1)" onmouseout="HideP()">
+						<Panel id="HealthOverlay" hittest="false">
+						</Panel>
+						<Label id="HealthNum" text="0 / 0" hittest="false"/>
+					</Button>
+					<Button id="ManaOverlayPanel" onmouseover="ShowP(2)" onmouseout="HideP()">
+						<Panel id="ManaOverlay" hittest="false">
+						</Panel>
+						<Label id="ManaNum" text="0 / 0" hittest="false"/>
+					</Button>
+				</Panel>
+				<Panel id="HeroLevel" hittest="false" >
+					<Label id="HeroLevelText" text="1" hittest="false"/>
+				</Panel>
+				<Panel id="EXPOverlayPanel" hittest="false">
+					<Panel id="EXPOverlay" hittest="false">
+					</Panel>
+					<Label id="ExpNum" text="0 / 0" hittest="false"/>
+				</Panel>
+				<Panel id="Properties">
+					<Button id="HeroStr" onmouseover="ShowP(3)" onmouseout="HideP()">
+						<Label id="HeroStrText" text="0" hittest="false"/>
+					</Button>
+					<Button id="HeroAgi" onmouseover="ShowP(4)" onmouseout="HideP()">
+						<Label id="HeroAgiText" text="0" hittest="false"/>
+					</Button>
+					<Button id="HeroInt" onmouseover="ShowP(5)" onmouseout="HideP()">
+						<Label id="HeroIntText" text="0" hittest="false"/>
+					</Button>
+				</Panel>
+			</Panel>
+		</Panel>
+	</Panel>	
+</root>
+

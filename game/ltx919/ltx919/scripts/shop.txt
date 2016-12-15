@@ -1,0 +1,416 @@
+"dota_shops"
+{
+	"1"
+    {
+        "item_pijia3_yifu"    
+        {
+            "index"         "1"
+            "__p"           "1"         
+        }   
+        "item_cctt"    
+        {
+            "index"         "2"
+            "__p"           "1"         
+        }   
+        "item_hechengshi2"    
+        {
+            "index"         "3"
+            "__p"           "1"         
+        }   
+        "item_xiangyukaijia_yifu"    
+        {
+            "index"         "4"
+            "__p"           "1"         
+        }  
+    }
+    //     "item_hong2"    
+    //     {
+    //         "index"         "2"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_lan1"    
+    //     {
+    //         "index"         "3"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_lan2"    
+    //     {
+    //         "index"         "4"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_yao3"    
+    //     {
+    //         "index"         "5"
+    //         "__p"           "1"         
+    //     }                  
+    //     "item_zhenyafu"    
+    //     {
+    //         "index"         "6"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_wuqishi"    
+    //     {
+    //         "index"         "7"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_fangjushi"    
+    //     {
+    //         "index"         "8"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_suijishu1"    
+    //     {
+    //         "index"         "9"
+    //         "__p"           "1"         
+    //     }
+    //     "item_shengjishu1"    
+    //     {
+    //         "index"         "10"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_shengjishu2"    
+    //     {
+    //         "index"         "11"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_shengjishu3"    
+    //     {
+    //         "index"         "12"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_shengjishu4"    
+    //     {
+    //         "index"         "13"
+    //         "__p"           "1"         
+    //     }
+    //      "item_remove1"    
+    //     {
+    //         "index"         "14"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_remove2"    
+    //     {
+    //         "index"         "15"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_remove3"    
+    //     {
+    //         "index"         "16"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_remove4"    
+    //     {
+    //         "index"         "17"
+    //         "__p"           "1"         
+    //     }
+    // }
+    // "2"
+    // {
+    //     "item_gong1"    
+    //     {
+    //         "index"         "18"
+    //         "__p"           "1"         
+    //     }   
+    //     "item_jian1"    
+    //     {
+    //         "index"         "19"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_fu1"    
+    //     {
+    //         "index"         "20"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_fazhang1"    
+    //     {
+    //         "index"         "21"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_xie1"    
+    //     {
+    //         "index"         "22"
+    //         "__p"           "1"         
+    //     }                  
+    //     "item_jiezhi1"    
+    //     {
+    //         "index"         "23"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_shoutao1"    
+    //     {
+    //         "index"         "24"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_pijia1"    
+    //     {
+    //         "index"         "25"
+    //         "__p"           "1"         
+    //     }  
+    //     "item_leitingbaoshi"    
+    //     {
+    //         "index"         "26"
+    //         "__p"           "0"         
+    //     }
+    //     "item_gongjibaoshi"    
+    //     {
+    //         "index"         "27"
+    //         "__p"           "0"         
+    //     }  
+    //     "item_shengmingzhishi"    
+    //     {
+    //         "index"         "28"
+    //         "__p"           "0"         
+    //     }  
+    //     "item_mofazhishi"    
+    //     {
+    //         "index"         "29"
+    //         "__p"           "0"         
+    //     }  
+    //     "item_fangyubaoshi"    
+    //     {
+    //         "index"         "30"
+    //         "__p"           "0"         
+    //     }
+    //      "item_hanbingbaoshi"    
+    //     {
+    //         "index"         "31"
+    //         "__p"           "0"         
+    //     }  
+    //     "item_huoyanbaoshi"    
+    //     {
+    //         "index"         "32"
+    //         "__p"           "0"         
+    //     }  
+    //     "item_fushibaoshi"    
+    //     {
+    //         "index"         "33"
+    //         "__p"           "0"         
+    //     }  
+    // }
+    // "3"
+    // {
+    //     "item_anmie1"    
+    //     {
+    //         "index"         "34"
+    //         "__p"           "2"         
+    //     }  
+    //     "item_leitingzhijian"    
+    //     {
+    //         "index"         "35"
+    //         "__p"           "2"         
+    //     }  
+    //     "item_leitingzhigong"    
+    //     {
+    //         "index"         "36"
+    //         "__p"           "2"         
+    //     }  
+    //     "item_qingshuangjian"    
+    //     {
+    //         "index"         "37"
+    //         "__p"           "2"         
+    //     }
+    //      "item_dadijia1"    
+    //     {
+    //         "index"         "38"
+    //         "__p"           "2"         
+    //     }  
+    //     "item_xuanwujia1"    
+    //     {
+    //         "index"         "39"
+    //         "__p"           "2"         
+    //     }  
+    //     "item_yitianjian1"    
+    //     {
+    //         "index"         "40"
+    //         "__p"           "2"         
+    //     }  
+    //      "item_xiangxue"    
+    //     {
+    //         "index"         "41"
+    //         "__p"           "2"         
+    //     }  
+    //     "item_houyigong1"    
+    //     {
+    //         "index"         "42"
+    //         "__p"           "2"         
+    //     }  
+    //     "item_qumozhizhang1"    
+    //     {
+    //         "index"         "43"
+    //         "__p"           "2"         
+    //     }  
+    //     "item_tianjing1"    
+    //     {
+    //         "index"         "44"
+    //         "__p"           "2"         
+    //     }
+    //     "item_hupo1"    
+    //     {
+    //         "index"         "45"
+    //         "__p"           "2"         
+    //     }
+    //     "item_xueyinkuangdao1"
+    //     {
+    //         "index"         "72"
+    //         "__p"           "2"
+    //     }
+    // }
+    // "4"
+    // {
+    //     "item_jian2"
+    //     {
+    //         "index"         "46"
+    //         "__p"           "3"  
+    //     }
+    //     "item_jian3"
+    //     {
+    //         "index"         "47"
+    //         "__p"           "3"  
+    //     }
+    //     "item_jian4"
+    //     {
+    //         "index"         "48"
+    //         "__p"           "3"  
+    //     }
+    //     "item_fu2"
+    //     {
+    //         "index"         "49"
+    //         "__p"           "3"  
+    //     }
+    //     "item_fu3"
+    //     {
+    //         "index"         "49"
+    //         "__p"           "3"  
+    //     }
+    //     "item_fu4"
+    //     {
+    //         "index"         "49"
+    //         "__p"           "3"  
+    //     }
+    //     "item_fazhang2"
+    //     {
+    //         "index"         "50"
+    //         "__p"           "3"  
+    //     }
+    //     "item_fazhang3"
+    //     {
+    //         "index"         "50"
+    //         "__p"           "3"  
+    //     }
+    //     "item_fazhang4"
+    //     {
+    //         "index"         "50"
+    //         "__p"           "3"  
+    //     }
+    //     "item_gong2"
+    //     {
+    //         "index"         "51"
+    //         "__p"           "3" 
+    //     }
+    //     "item_gong3"
+    //     {
+    //         "index"         "52"
+    //         "__p"           "3" 
+    //     }
+    //     "item_gong4"
+    //     {
+    //         "index"         "53"
+    //         "__p"           "3" 
+    //     }
+    //     "item_pijia2"
+    //     {
+    //         "index"         "54"
+    //         "__p"           "3" 
+    //     }
+    //     "item_pijia3"
+    //     {
+    //         "index"         "55"
+    //         "__p"           "3" 
+    //     }
+    //     "item_pijia4"
+    //     {
+    //         "index"         "56"
+    //         "__p"           "3" 
+    //     }
+    //     "item_shoutao2"
+    //     {
+    //         "index"         "57"
+    //         "__p"           "3" 
+    //     }
+    //     "item_shoutao3"
+    //     {
+    //         "index"         "58"
+    //         "__p"           "3" 
+    //     }
+    //     "item_shoutao4"
+    //     {
+    //         "index"         "59"
+    //         "__p"           "3" 
+    //     }
+    //     "item_jiezhi2"
+    //     {
+    //         "index"         "60"
+    //         "__p"           "3" 
+    //     }
+    //     "item_jiezhi3"
+    //     {
+    //         "index"         "61"
+    //         "__p"           "3" 
+    //     }
+    //     "item_jiezhi4"
+    //     {
+    //         "index"         "62"
+    //         "__p"           "3" 
+    //     }
+    //     "item_xie2"
+    //     {
+    //         "index"         "63"
+    //         "__p"           "3" 
+    //     }
+    //     "item_xie3"
+    //     {
+    //         "index"         "64"
+    //         "__p"           "3" 
+    //     }
+    //     "item_xie4"
+    //     {
+    //         "index"         "65"
+    //         "__p"           "3" 
+    //     }
+    //     "item_fazhang2"
+    //     {
+    //         "index"         "66"
+    //         "__p"           "3" 
+    //     }
+    //     "item_fazhang3"
+    //     {
+    //         "index"         "67"
+    //         "__p"           "3" 
+    //     }
+    //     "item_fazhang4"
+    //     {
+    //         "index"         "68"
+    //         "__p"           "3" 
+    //     }
+    //     "item_hechengshi1"
+    //     {
+    //         "index"         "69"
+    //         "__p"           "0"
+    //     }
+    //     "item_hechengshi2"
+    //     {
+    //         "index"         "70"
+    //         "__p"           "0"
+    //     }
+    //     "item_hechengshi3"
+    //     {
+    //         "index"         "71"
+    //         "__p"           "0"
+    //     }
+    //     "item_hupo3"
+    //     {
+    //         "index"         "73"
+    //         "__p"           "3"
+    //     }
+    // }
+}

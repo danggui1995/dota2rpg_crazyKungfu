@@ -1,0 +1,74 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/styles/custom_game/other.css" />
+	</styles>
+	<!--background-image: url(file://{images}/custom_game/hong.png);-->
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/other.js" />
+	</scripts>
+	<Panel class="OtherRoot"  hittest="false">
+		<Panel id="Fubencs" class="ChuanSongPanel" hittest="false">
+			<Label class="DoorTitle" text="#door"/>
+			<Panel class="AreaList" hittest="false">
+				<Button class="__to_btn" onactivate="__toarea(1)" >
+					<Label class="__to_text" text="#fb1" hittest="false"/>
+				</Button>
+				<Button  class="__to_btn" onactivate="__toarea(2)" >
+					<Label class="__to_text" text="#fb2" hittest="false"/>
+				</Button>
+				<Button  class="__to_btn" onactivate="__toarea(6)" >
+					<Label class="__to_text" text="#fb6" hittest="false"/>
+				</Button>
+				<Button  class="__to_btn" onactivate="__toarea(4)" >
+					<Label class="__to_text" text="#fb4" hittest="false"/>
+				</Button>
+				<Button  class="__to_btn" onactivate="__toarea(5)" >
+					<Label class="__to_text" text="#fb5" hittest="false"/>
+				</Button>
+				<Button  class="__to_btn" onactivate="__toarea(7)" >
+					<Label class="__to_text" text="#fb7" hittest="false"/>
+				</Button>
+
+			</Panel>
+		</Panel>
+		<Panel id="Jxcs" class="ChuanSongPanel" hittest="false">
+			<Label class="DoorTitle" text="#tiaozhan"/>
+			<Panel class="AreaList" hittest="false">
+				<!--
+				<Button id="jxcs1" class="__to_btn" onactivate="__toarea2(1)" onmouseover="_ShowTooltip(1)"
+					onmouseout="_HideTooltip()">
+					<Label class="__to_text" text="#jx2" hittest="false"/>
+				</Button>
+				<Button id="jxcs2" class="__to_btn" onactivate="__toarea2(2)" onmouseover="_ShowTooltip(2)"
+					onmouseout="_HideTooltip()">
+					<Label class="__to_text" text="#jx10" hittest="false"/>
+				</Button>-->
+				<Button id="jxcs3" class="__to_btn" onactivate="__toarea2(3)" onmouseover="_ShowTooltip(3)"
+					onmouseout="_HideTooltip()">
+					<Label class="__to_text" text="#nlys" hittest="false"/>
+				</Button>
+				<Button id="slzl" class="__to_btn" onactivate="__toarea2(4)" onmouseover="_ShowTooltip(4)"
+					onmouseout="_HideTooltip()">
+					<Label class="__to_text" text="#slzl" hittest="false"/>
+				</Button>
+			</Panel>
+		</Panel>
+		<Panel id="FbPanel" hittest="false">
+			<Label id="FbTitle" text="#Fb"/>
+			<Panel id="ButtonPabel" hittest="false">
+				<Image id="fb_img" src="file://{resources}/images/custom_game/__back1.png">
+				</Image>
+				<Button class="fb_btn" onactivate="FbKaiqi()" >
+					<Label class="fb_btn_text" text="#kaiqi" hittest="false"/>
+				</Button>
+			</Panel>
+		</Panel>
+		<Panel id="PKPanel" hittest="false">
+			<Label id="PkTitle" text="#PK"/>
+			<Panel id="PlayerList" hittest="false">
+			</Panel>
+		</Panel>
+	</Panel>
+</root>
+

@@ -1,0 +1,21 @@
+﻿<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/base_panel.css"/>
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/forge_item.js"/>
+	</scripts>
+	<Panel hittest="false">
+		<Panel id= "mid_container" hittest="false">
+			<Panel id = "forge_item_panel" hittest="false">
+				<Button id= "forgeInfo1" onactivate="ForgeItem(1)"> 
+					<Label text="#forgeItem1"></Label>
+				</Button>
+				<Button id= "forgeInfo2" onactivate="ForgeItem(2)"> 
+					<Label text="#forgeItem2"></Label>
+				</Button>
+			</Panel>
+				
+		</Panel>
+	</Panel>
+</root>

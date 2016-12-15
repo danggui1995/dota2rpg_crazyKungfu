@@ -1,0 +1,197 @@
+
+.ShopRoot{
+    height: 700px;
+    width: 430px;
+    horizontal-align: right;
+    vertical-align: center;
+    margin-bottom: 250px;
+    flow-children:down;
+}
+
+#Content{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transform: translateY(0px);
+    visibility: collapse;
+    background-color: gradient( linear, 0% 0%, 0% 100%, from( #373d45 ), to( #4d5860 ) );
+    transition-property: transform,opacity;
+    transition-duration: 0.2s;
+    flow-children:down;
+}
+#ItemCompose
+{
+    width: 100%;
+    height: 40%;
+    horizontal-align: center;
+    transform: translateY(0px);
+    flow-children:down;
+    background-color: gradient( linear, 0% 0%, 0% 100%, from( #4d5860 ), to( #47A084 ) );
+    transition-property: transform,opacity;
+    transition-duration: 0.2s;
+}
+.ComeOut
+{
+    animation-name: showshop;
+    animation-duration: 0.25s;
+}
+.ComeIn
+{
+    animation-name: hideshop;
+    animation-duration: 0.25s;
+}
+
+.ShopRoot:disabled{
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+#ShopItemList{
+    width:100%;
+    height: 60%;
+    
+    flow-children:right;
+}
+
+#ShopItemList VerticalScrollBar .ScrollThumb, HTMLVerticalScrollBar .ScrollThumb{
+    background-color: yellow;
+    border-right: 10px;
+    border-radius: 30px;
+}
+
+#ShopTitle{
+    y: 4px;
+    color: white;
+    font-size: 40px;
+    horizontal-align: middle;
+    text-shadow: 1px 1px 1px #000000;
+    text-align: center;
+}
+
+@keyframes 'showshop'
+{
+	0%
+	{
+		transform: translateX( 200px );
+	}
+    25%
+    {
+        transform: translateX( 150px );
+    }
+    50%
+    {
+        transform: translateX( 100px );
+    }
+	75%
+    {
+        transform: translateX( 50px );
+    }	
+	100%
+	{
+		transform: translateZ( 0px ) translateX( 0px ) translateY( 0px ) rotateY( 0deg ) rotateX( 0deg );
+	}
+}
+
+@keyframes 'hideshop'
+{
+    0%
+    {
+        transform: translateX( 200px );
+    }
+    25%
+    {
+        transform: translateX( 250px );
+    }
+    50%
+    {
+        transform: translateX( 300px );
+    }
+    75%
+    {
+        transform: translateX( 350px );
+    }   
+    100%
+    {
+        transform: translateZ( 0px ) translateX( 400px ) translateY( 0px ) rotateY( 0deg ) rotateX( 0deg );
+    }
+}
+#ComposeTitle
+{
+    text-align: center;
+    horizontal-align: center;
+}
+#composeList1
+{
+    height: 30%;
+    width: 100%;
+    flow-children:right;
+    horizontal-align: center;
+}
+#composeList2
+{
+    height: 30%;
+    width: 100%;
+    flow-children:right;
+    horizontal-align: center;
+}
+#composeList3
+{
+    height: 30%;
+    width: 100%;
+    flow-children:right;
+    horizontal-align: center;
+}
+#ShopItemListCol1
+{
+    width: 30%;
+    height: 100%;
+    flow-children:down;
+    margin-left: 10px;
+    background-color: gradient( linear, 0% 0%, 0% 100%, from( #4d5860 ), to( #47A084 ) );
+    overflow: squish scroll;
+    horizontal-align: center;
+}
+#ShopItemListCol2
+{
+    width: 30%;
+    height: 100%;
+    flow-children:down;
+    background-color: gradient( linear, 0% 0%, 0% 100%, from( #4d5860 ), to( #47A084 ) );
+    margin-left: 10px;
+    overflow: squish scroll;
+    horizontal-align: center;
+}
+#ShopItemListCol3
+{
+    width: 30%;
+    height: 100%;
+    flow-children:down;
+    margin-left: 10px;
+    background-color: gradient( linear, 0% 0%, 0% 100%, from( #4d5860 ), to( #47A084 ) );
+    overflow: squish scroll;
+    horizontal-align: center;
+}
+#t1
+{
+    height: 20px;
+    width: 30%;
+    margin-left: 30px;
+}
+#t2
+{
+     margin-left: 20px;
+    height: 20px;
+    width: 30%;
+}
+#t3
+{
+     margin-left: 10px;
+    height: 20px;
+    width: 30%;
+}
+#tPanel
+{
+    height: 25px;
+    width: 100%;
+    flow-children:right;
+}

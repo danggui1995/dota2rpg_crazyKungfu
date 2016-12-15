@@ -1,0 +1,34 @@
+<root>  
+       
+	<styles>       
+		<include src="file://{resources}/styles/custom_game/quest.css" />
+		<include src="file://{resources}/styles/dotastyles.css" />
+	</styles>     
+	         
+	<scripts> 
+		<include src="file://{resources}/scripts/custom_game/quest_new.js" />
+	</scripts>       
+	    
+	<Panel hittest="false"> 
+		<Panel id="QuestRoot" class="QuestRoot" hittest="false">
+			<Panel id="Background" hittest="false" />
+			<Panel id="Stuff" hittest="false">
+				<Panel id="Title" hittest="false">   
+					<Image id="QuestLog" src="file://{images}/custom_game/quest.png"  hittest="false"/>
+					<Label id="QuestTitle" text="#task" hittest="false"
+					/> 
+					<Button id="MiniPanel" onactivate="OnQuestHide()" >
+						<Label id="MiniLabel" text="---" onclick="javascript:$.msg('HI');" />
+					</Button>
+				</Panel> 
+				<Panel id="ContainerPanel" hittest="false">
+
+				</Panel>   
+			</Panel>
+			<Image id="backimg" src="file://{images}/custom_game/long1.png" hittest="false"/>
+			<Panel id="Compiling"  hittest="false">   
+				
+			</Panel>
+		</Panel>
+	</Panel>
+</root>

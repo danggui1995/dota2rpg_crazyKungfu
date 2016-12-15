@@ -1,0 +1,49 @@
+﻿<root>  
+       
+	<styles>       
+		<include src="file://{resources}/styles/custom_game/task_show.css" />
+		<include src="file://{resources}/styles/dotastyles.css" />
+	</styles>     
+	         
+	<scripts> 
+		<!--<include src="file://{resources}/scripts/custom_game/task_show.js" />-->
+		<include src="file://{resources}/scripts/custom_game/task_show_new.js" />
+	</scripts>       
+	    
+	<Panel hittest="false"> 
+		<Panel id="TaskShowRoot" class="TaskShowRoot" hittest="false" >
+			<Image id="ltx" class="imageSize" src="file://{images}/custom_game/task_background.png" hittest="false"/>
+			<Panel id="Background" hittest="false" />
+			<Panel id="Stuff" hittest="false">
+				<Panel id="Title" hittest="false">   
+					<Image id="QuestLog" src="file://{images}/custom_game/quest.png"  hittest="false"/>
+					
+					<Button id="cancle_btn" onactivate="QuitArea()">
+						
+					</Button>
+				</Panel> 
+				<Panel id="title2" hittest="false" >
+					<Label id="QuestTitle" text="#gebilaowang" hittest="false"/> 
+				</Panel>
+				<Panel id="content" hittest="false">
+					
+					<Label id="Description" text="#songshui" hittest="false"/>
+					<Image id="Dest" src="file://{images}/custom_game/quest.png"  hittest="false"/>
+					<Label id="Description_award" text="#jiangli" hittest="false"/>
+				</Panel>
+				<Panel id="btn" hittest="false">
+					<Button id="ac_btn" onactivate="btn_ac()">
+						<Label class="l_btn" id="l_ac_btn" text="#jieshou" hittest="false"/>
+					</Button>
+					
+					<Button id="sub_btn" onactivate="btn_sub()">
+						<Label class="l_btn" id="l_sub_btn" text="#tijiao" hittest="false"/>
+					</Button>
+				</Panel>
+			</Panel>
+		</Panel>
+	</Panel>
+	 
+	 
+	
+</root>

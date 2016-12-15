@@ -1,0 +1,78 @@
+
+.ARight{
+	flow-children:right;
+}
+
+.ADown{
+	flow-children:down;
+}
+
+.AHToLeft{
+	horizontal-align: left;
+}
+
+.AHToMid{
+	horizontal-align: middle;
+}
+
+.AHToRight{
+	horizontal-align: right;
+}
+
+.AVToTop{
+	vertical-align: top;
+}
+
+.AVToMid{
+	vertical-align: middle;
+}
+
+.AVToBottom{
+	vertical-align: bottom;
+}
+
+.AHVToMid{
+	vertical-align: middle;
+	horizontal-align: middle;
+}
+
+.AWidthHeight{
+	width: 100%;
+	height: 100%;
+}
+
+.AWidth{
+	width: 100%;
+}
+
+.AHeight{
+	height: 100%;
+}
+
+.AShow{
+	visibility: visible;
+}
+.AHide{
+	visibility: collapse;
+}
+
+.TextMid{
+	text-align: center;
+}
+
+.AWidthFill{
+	width: fill-parent-flow(1);
+}
+
+.AHeightFill{
+	height: fill-parent-flow(1);
+}
+
+.AAspectRatio5x4{}
+.AAspectRatio4x3{}
+.AAspectRatio16x9{}
+.AAspectRatio16x10{}
+.AAspectRatio5x4Filpped{}
+.AAspectRatio4x3Filpped{}
+.AAspectRatio16x9Filpped{}
+.AAspectRatio16x10Filpped{}

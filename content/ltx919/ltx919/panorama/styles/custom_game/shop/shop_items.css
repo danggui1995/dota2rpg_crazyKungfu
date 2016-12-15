@@ -1,0 +1,46 @@
+
+.ShopItemRoot{
+	margin-bottom: 5px;
+	margin-right: 15px;
+	
+}
+
+#ShopItemBtn{
+	horizontal-align: center;
+	width: 86px;
+	height: 66px;
+
+	transition-property: background-image,transform;
+	transition-duration: 0.3s;
+}
+
+#ShopItemBtn:hover{
+	box-shadow: fill 10px 10px 10px #C8BFE7;
+}
+
+#ShopItemPanel{
+	width: 86px;
+	height: 66px;
+	margin-left: 10px;
+	horizontal-align: center;
+	vertical-align: middle;
+}
+
+#ItemImage{
+	height: 66px;
+	width: 86px;
+	vertical-align: middle;
+	horizontal-align: center;
+}
+
+#ItemCost{
+	color: #fdcc4b;
+	font-weight: bold;
+}
+
+.BuyEnable{
+
+}
+.BuyDisable{
+	wash-color: #bbbbbb;
+}

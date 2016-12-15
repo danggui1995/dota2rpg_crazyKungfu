@@ -1,0 +1,59 @@
+<!--<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/styles/custom_game/avalon.css" />
+		<include src="file://{resources}/styles/custom_game/item/myitem.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/item/myitem.js" />
+	</scripts>
+	<Panel class="BackpackRoot AHide" onmouseout="OnLeavePanel()">
+
+		<Image hittest="false" src="file://{images}/custom_game/task_background.png" />
+		<Label id="Title" text="#special_item"/>
+		<Panel id="CloseButtonPanel" class="AHToRight">
+			<Button id="CloseButton" class="CloseButton AHToRight" onactivate="CloseOrOpenBackpack('CloseOrOpen')" ></Button>
+		</Panel>
+
+		<Panel id="BackpackMainPanel" class="ADown"></Panel>
+	</Panel>
+</root>
+
+-->
+
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/styles/custom_game/avalon.css" />
+		<include src="file://{resources}/styles/custom_game/item/myitem.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/item/myitem.js" />
+	</scripts>
+	<Panel class="InventoryOverlayRoot2" hittest="false">
+		<Panel id = "TijiaoPanel" hittest="false">
+			<!--<Image hittest="false" src="file://{images}/custom_game/task_background.png" />-->
+			<Label id="Title" text=""/>
+			<Panel id="description__panel">
+				<Label id="description__text" text=""/>
+			</Panel>
+			<Panel id="inventory_items">
+				<Panel id="inventory_row_1" />
+				<Panel id="inventory_row_2" />
+				<Panel id="inventory_row_3" />
+			</Panel>
+			<Panel id="ForButtonPanel">
+				<Button id="ForButtonYes" onactivate="OnForButtonYes()" >
+					<Label id="ForButtonYesText" text=""/>
+				</Button>
+				<Button id="ForButtonNo" onactivate="OnForButtonNo()" >
+					<Label id="ForButtonNoText" text=""/>
+				</Button>
+			</Panel>
+		</Panel>
+		
+	</Panel>
+</root>
+
+
+

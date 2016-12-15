@@ -1,0 +1,32 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/styles/custom_game/shop/shop.css"/>
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/shop/shop.js"/>
+	</scripts>
+	<Panel class="ShopRoot" hittest="false">
+		<Panel id="Content" hittest="false">
+			<Label id="ShopTitle" text="#shoptitle"/>
+			<Panel id="tPanel">
+				<Label id="t1" text="#xiaohaopin"/>
+				<Label id="t2" text="#jichuwupin"/>
+				<Label id="t3" text="#shengjiwupin"/>
+			</Panel>
+			
+			<Panel id="ShopItemList">
+				<Panel id="ShopItemListCol1"></Panel>
+				<Panel id="ShopItemListCol2"></Panel>
+				<Panel id="ShopItemListCol3"></Panel>
+			</Panel>
+			<Panel id="ItemCompose">
+				<Label id="ComposeTitle" text="#compose_tip"/>
+				<Panel id="composeList1"></Panel>
+				<Panel id="composeList2"></Panel>
+				<Panel id="composeList3"></Panel>
+			</Panel>
+		</Panel>
+
+	</Panel>
+</root>

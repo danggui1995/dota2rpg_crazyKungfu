@@ -1,0 +1,14 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/styles/custom_game/other.css"/>
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/shop/player.js"/>
+	</scripts>
+	<Panel hittest="false" class="PlayerRoot">
+		<Button id="PlayerBtn" onactivate="OnSelectPk()" >
+			<Label id="__PlayerID" text="#a1" hittest="false"/>
+		</Button>
+	</Panel>
+</root>

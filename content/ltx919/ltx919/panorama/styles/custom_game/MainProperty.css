@@ -1,0 +1,379 @@
+.MainRoot
+{
+	width: 100%;
+	height: 100%;
+}
+.MainPropertyRoot
+{
+	width: 100%;
+	height: 330px;
+	vertical-align: bottom;
+	horizontal-align: center;
+	margin-bottom: -45px;
+}
+#topbar
+{
+	width: 45%;
+	border-radius: 10px;
+	height: 40px;
+	vertical-align: top;
+	horizontal-align: left;
+	flow-children:right;
+	margin-top: -5px;
+	margin-left: 40px;
+	background-color: #272822;
+}
+#shuxingkuang
+{
+	height: 300px;
+	width: 250px;
+	margin-left: 260px;
+}
+#shuxingkuang2
+{
+	height: 250px;
+	width: 180px;
+	horizontal-align: right;
+	margin-right: 100px;
+	margin-top: 30px;
+
+}
+
+#rightPanel
+{
+	width: 100%;
+	height: 330px;
+	vertical-align: bottom;
+	horizontal-align: center;
+	flow-children:right;
+	margin-bottom: -3px;
+}
+
+#HpAndMana
+{
+	height: 300px;
+	background-size :100%; 
+	width: 50%;
+	margin-left: -15px;
+	margin-bottom:10px; 
+	horizontal-align: center;
+	background-repeat: no-repeat;
+	vertical-align: bottom;
+	flow-children:right;
+	background-image: url(file://{images}/custom_game/honglan.png);
+}
+
+#HealthOverlayPanel
+{
+	width: 180px;
+	height: 190px;
+	border-radius: 120px;
+	vertical-align: bottom;
+	margin-bottom: 40px;
+	margin-left: 47px;
+}
+#HealthOverlay
+{
+	width: 230px;
+	background-color: black;
+	wash-color: #39b0d325;
+}
+#HealthNum
+{
+	color: red;
+    font-size: 24px;
+	text-shadow: 0px 0px 6px 6 #000000;
+    horizontal-align: center;
+    vertical-align: center;
+}
+#ManaOverlayPanel
+{
+	width: 180px;
+	height: 190px;
+	border-radius: 120px;
+	horizontal-align: right;
+    vertical-align: bottom;
+	margin-bottom: 40px;
+	margin-right: 68px;
+}
+#ManaOverlay
+{
+	width: 230px;
+	background-color: black;
+}
+
+#ManaNum
+{
+	color: blue;
+    font-size: 24px;
+	text-shadow: 0px 0px 1px 2 #000000;
+    horizontal-align: center;
+    vertical-align: center;
+}
+#HeroLevel
+{
+	background-color: #DE9F05;
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	border:2px solid black;
+    horizontal-align: left;
+    vertical-align: bottom;
+	margin-left: -920px;
+	margin-bottom: 50px;
+}
+#HeroLevelText
+{
+	color: white;
+    font-size: 24px;
+	text-shadow: 0px 0px 6px 6 #000000;
+	vertical-align: center;
+	horizontal-align: center;
+}
+
+#EXPOverlayPanel
+{
+	height: 20px;
+	width: 440px;
+	border-radius: 5px;
+	margin-left: 141px;
+	background-color: gray;
+	horizontal-align: center;
+    vertical-align: bottom;
+    margin-bottom: 47px;
+	
+}
+
+#EXPOverlay
+{
+	height: 100%;
+	background-color: #DE9F05;
+	width: 100%;
+	border-radius: 5px;
+}
+#ExpNum
+{
+	color: white;
+    font-size: 16px;
+	text-shadow: 0px 0px 6px 6 #000000;
+	vertical-align: center;
+  	horizontal-align: center;
+}
+
+#ShuXing
+{
+	height: 265px;
+	width: 200px;
+	background-color: gray;
+	horizontal-align: left;
+    vertical-align: center;
+    flow-children:down;
+    margin-left: 290px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+#HeroName
+{
+	height: 40px;
+	width:	100%;
+	background-color: #272822;
+	horizontal-align: center;
+}
+#HeroNameText
+{
+	margin-left: 5px;
+	color: white;
+    font-size: 16px;
+	vertical-align: center;
+	horizontal-align: center;
+}
+#HeroDamage
+{
+	margin-top: 5px;
+	height: 40px;
+	width:	100%;
+	background-color: #272822;
+	horizontal-align: center;
+	flow-children:right;
+
+}
+#HeroDamageText
+{
+	margin-left: 5px;
+	color: white;
+    font-size: 16px;
+	vertical-align: center;
+	horizontal-align: center;
+	margin-left: 50px;
+
+}
+#HeroDamageText2
+{
+	color: green;
+    font-size: 16px;
+	vertical-align: center;
+	horizontal-align: left;
+}
+#HeroArmor
+{
+	margin-top: 5px;
+	height: 40px;
+	width:	100%;
+	background-color: #272822;
+	horizontal-align: center;
+}
+#HeroArmorText
+{
+	color: white;
+    font-size: 16px;
+	text-shadow: 0px 0px 6px 6 #000000;
+	vertical-align: center;
+	horizontal-align: center;
+}
+
+#MoveSpeedValue
+{
+	margin-top: 5px;
+	height: 40px;
+	width:	100%;
+	background-color: #272822;
+	horizontal-align: center;
+}
+#MoveSpeedValueText
+{
+	color: white;
+    font-size: 16px;
+	text-shadow: 0px 0px 6px 6 #000000;
+	vertical-align: center;
+	horizontal-align: center;
+}
+#MagicResistence
+{
+	margin-top: 5px;
+	height: 40px;
+	width:	100%;
+	background-color: #272822;
+	horizontal-align: center;
+}
+#MagicResistenceText
+{
+	color: white;
+    font-size: 16px;
+	text-shadow: 0px 0px 6px 6 #000000;
+	vertical-align: center;
+	horizontal-align: center;
+}
+
+#AttackSpeed
+{
+	margin-top: 5px;
+	height: 40px;
+	width:	100%;
+	background-color: #272822;
+	horizontal-align: center;
+}
+#AttackSpeedText
+{
+	color: white;
+    font-size: 16px;
+	text-shadow: 0px 0px 6px 6 #000000;
+	vertical-align: center;
+	horizontal-align: center;
+}
+
+
+#Properties
+{
+	height: 130px;
+	width: 140px;
+	horizontal-align: center;
+    vertical-align: center;
+    flow-children:down;
+    border-radius: 30px;
+    margin-left: -140px;
+    margin-top: 30px;
+}
+#HeroAgi
+{
+	margin-top: 5px;
+	height: 40px;
+	width:	100%;
+
+	horizontal-align: center;
+}
+#HeroAgiText
+{
+	color: white;
+    font-size: 16px;
+	text-shadow: 0px 0px 6px 6 #000000;
+	vertical-align: center;
+	horizontal-align: center;
+}
+#HeroStr
+{
+	height: 40px;
+	width:	100%;
+
+	horizontal-align: center;
+}
+#HeroStrText
+{
+	color: white;
+    font-size: 16px;
+	text-shadow: 0px 0px 6px 6 #000000;
+	vertical-align: center;
+	horizontal-align: center;
+}
+#HeroInt
+{
+	margin-top: 5px;
+	height: 40px;
+	width:	100%;
+	
+	horizontal-align: center;
+}
+#HeroIntText
+{
+	color: white;
+    font-size: 16px;
+	text-shadow: 0px 0px 6px 6 #000000;
+	vertical-align: center;
+	horizontal-align: center;
+}
+#myGold
+{
+	margin-top: 5px;
+	height: 40px;
+	width:	200px;
+	horizontal-align: center;
+	flow-children:right;
+}
+#myGoldText
+{
+	color: white;
+    font-size: 16px;
+	text-shadow: 0px 0px 6px 6 #000000;
+	vertical-align: center;
+	horizontal-align: center;
+}
+#ShengWang
+{
+	margin-top: 5px;
+	height: 40px;
+	width:	100px;
+	horizontal-align: center;
+}
+#ShengWangText
+{
+	color: white;
+    font-size: 16px;
+	text-shadow: 0px 0px 6px 6 #000000;
+	vertical-align: center;
+	horizontal-align: center;
+}
+#touxiangdianji
+{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+}

@@ -1,0 +1,186 @@
+// 1 kill unit
+// 2 find item
+// kill several different units
+// 3 for killAim
+// 1 for unitName
+"tasks"
+{
+    "primarys"
+    { 
+        "primary1"
+        {
+            "title"                 "title_primaryz1"
+            "description"           "description_primary1"
+            "image_address"         "bottle"
+            "type"                  "1"
+            "aimNums"               "1"
+            "unitName"               "npc_myboss_daxiongge"
+            "state"                 "0"
+            "award"                 "e5000,g500,iitem_jian2|item_gong2|item_fu2|item_fazhang2"
+            "awardAbility"          "201,233,2"
+            "entName"               "ent_npc_myboss_daxiongge"
+        }
+        "primary2"
+        {
+            "title"                 "title_primaryz2"
+            "description"           "description_primary2"
+            "image_address"         "bottle"
+            "type"                  "1"
+            "aimNums"               "1"
+            "unitName"              "fb2_boss"
+            "state"                 "0"
+            "award"                 "e10000,g1300,iitem_jian4|item_gong4|item_fu4|item_fazhang4"
+            "awardAbility"          "301,331,3"
+            "entName"               "fb2_boss_born"
+        }
+        "primary3"
+        {
+            "title"                 "title_primaryz3"
+            "description"           "description_primary3"
+            "image_address"         "bottle"
+            "type"                  "1"
+            "aimNums"               "1"
+            "unitName"              "fb3_boss"
+            "state"                 "0"
+            "award"                 "e20000,g2300,iitem_leitingbaoshi|item_zhenyafu|item_shoutao4|item_xie4|item_jiezhi4"
+            "awardAbility"          "401,440,4"
+            "entName"               "fb3_boss_born"
+        }
+        "primary4"
+        {
+            "title"                 "title_primaryz4"
+            "description"           "description_primary4"
+            "image_address"         "bottle"
+            "type"                  "1"
+            "aimNums"               "1"
+            "unitName"              "npc_myboss_mo3"
+            "state"                 "0"
+            "awardAbility"          "401,440,4"
+            "award"                 "e30000,g4000,iitem_leitingzhigong|item_houyigong1|item_hupo1|item_qumozhizhang1|item_leitingzhijian"
+            "entName"               "ent_npc_myboss_mo3"
+        }
+    }
+    "others"
+    {
+        "other1"
+        {
+            "title"                 "title_other1"
+            "description"           "description_other1"
+            "image_address"         "bottle"
+            "type"                  "2"
+            "state"                 "0"
+            "award"                 "e300,g400"
+            "initItem"              "item_empty_bottle"
+            "aimItem"               "item_full_bottle"
+            "specialItem"           "item_spec_bottle"
+            "specialAward"          "e1000,g500,a301|333"
+            "entName"               "songshui_t2,songshui_t"
+            //"annoucer"              "ent_task1"
+        }
+        "other2"
+        {
+            "title"                 "title_other2"
+            "description"           "description_other2"
+            "image_address"         "bottle"
+            "type"                  "1"
+            "aimNums"               "5"
+            "unitName"              "npc_task_num_xiongge"
+            "state"                 "0"
+            "award"                 "e2000,g600,iitem_wuqishi|item_fangjushi,s2"
+            "entName"               "xiongge_youxia"
+            //"annoucer"              "ent_task2"
+        }
+        "other3"
+        {
+            "title"                 "title_other3"
+            "description"           "description_other3"
+            "image_address"         "bottle"
+            "type"                  "3"
+            "aimNums"               "4"
+            "killAim"              "npc_myboss_qiangdao1+npc_myboss_qiangdao2"
+            "state"                 "0"
+            "award"                 "e10000,g2000,iitem_jian4|item_gong4|item_fu4|item_fazhang4"
+            "entName"               "ent_npc_myboss_qiangdao1"
+            //"annoucer"              "ent_task2"
+        }
+        "other4"
+        {
+            "title"                 "title_other4"
+            "description"           "description_other4"
+            "image_address"         "bottle"
+            "type"                  "3"
+            "aimNums"               "1"
+            "killAim"              "npc_myboss_mo1+npc_myboss_mo2"
+            "state"                 "0"
+            "award"                 "e16000,g3000,iitem_hechengshi3|item_hechengshi2|item_leitingbaoshi|item_wuqishi"
+            "entName"               "ent_npc_myboss_mo1"
+            //"annoucer"              "ent_task2"
+        }
+        "other5"
+        {
+            "title"                 "title_other5"
+            "description"           "description_other5"
+            "image_address"         "bottle"
+            "type"                  "3"
+            "aimNums"               "1"
+            "killAim"              "npc_myboss_zongshi1+npc_myboss_zongshi2"
+            "state"                 "0"
+            "award"                 "e60000,g2400"
+            "awardAbility"          "401,439,4"
+            "entName"               "ent_npc_myboss_zongshi1"
+            //"annoucer"              "ent_task2"
+        }
+        "other6"
+        {
+            "title"                 "title_other6"
+            "description"           "description_other6"
+            "image_address"         "bottle"
+            "type"                  "3"
+            "aimNums"               "1"
+            "killAim"              "npc_myboss_dongxie+npc_myboss_xidu+npc_myboss_nandi+npc_myboss_beigai"
+            "state"                 "0"
+            "award"                 "e200000,g6000"
+            "awardAbility"          "401,439,4"
+            "entName"               "fb4_enter"
+            //"annoucer"              "ent_task2"
+        }
+        "other7"
+        {
+            "title"                 "title_other7"
+            "description"           "description_other7"
+            "image_address"         "bottle"
+            "type"                  "1"
+            "aimNums"               "8"
+            "unitName"              "npc_task_num_ji_normal"
+            "state"                 "0"
+            "award"                 "e500,g300,s1"
+            "entName"               "shaji_zuoshang"
+            //"annoucer"              "ent_task2"
+        }
+        "other8"
+        {
+            "title"                 "title_other8"
+            "description"           "description_other8"
+            "image_address"         "bottle"
+            "type"                  "4"
+            "state"                 "0"
+            "arrive"                "0"
+            "award"                 "e800,g500"
+            "awardAbility"          "201,233,2"
+            "entName"               "t_feidaogu"
+            //"annoucer"              "ent_task2"
+        }
+        "other9"
+        {
+            "title"                 "title_other9"
+            "description"           "description_other9"
+            "image_address"         "bottle"
+            "type"                  "2"
+            "state"                 "0"
+            "award"                 "g1500,iitem_biduzhu,s3"
+            "rate"                  "33"
+            "aimItem"               "item_duanchangcao,item_duanchangcao,item_duanchangcao,item_duanchangcao"
+            "entName"               "ent_mo_youxia"
+        }
+    }
+}

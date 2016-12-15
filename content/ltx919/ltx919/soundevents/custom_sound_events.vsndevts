@@ -1,0 +1,566 @@
+"warning.moregold"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"          "sos_reference_stack"
+                "reference_stack"           "dota_src1_2d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"        "sounds/war3/war3_GruntNoGold1.vsnd"
+                        }
+                    }
+                   "volume"
+					{
+						"value" "1.000000"
+					}
+					"pitch"
+					{
+						"value" "1.000000"
+					}
+					"soundlevel"
+					{
+						"value" "75.000000"
+					}
+					"event_type"
+					{
+						"value"		"2.000000"
+					}
+                }
+            }
+        }
+    }
+}
+"ability.getability"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"          "sos_reference_stack"
+                "reference_stack"           "dota_src1_2d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"        "sounds/war3/war3_healingspraydeath1.vsnd"
+                        }
+                    }
+                   "volume"
+                    {
+                        "value" "1.000000"
+                    }
+                    "pitch"
+                    {
+                        "value" "1.000000"
+                    }
+                    "soundlevel"
+                    {
+                        "value" "75.000000"
+                    }
+                    "event_type"
+                    {
+                        "value"     "2.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+
+"ability.war3_bm_fury"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"          "sos_reference_stack"
+                "reference_stack"           "dota_src1_2d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"        "sounds/war3/war3_BladeMasterWhirlwind.vsnd"
+                        }
+                    }
+                   "volume"
+                    {
+                        "value" "1.000000"
+                    }
+                    "pitch"
+                    {
+                        "value" "1.000000"
+                    }
+                    "soundlevel"
+                    {
+                        "value" "75.000000"
+                    }
+                    "event_type"
+                    {
+                        "value"     "2.000000"
+                    }
+                }
+            }
+        }
+    }
+}
+"IceAbility.Frozen"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"          "sos_reference_stack"
+                "reference_stack"           "dota_src1_2d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"        "sounds/war3/war3_FrostBoltHit1.vsnd"
+                        }
+                    }
+                   "volume"
+                    {
+                        "value" "1.000000"
+                    }
+                    "pitch"
+                    {
+                        "value" "1.000000"
+                    }
+                    "soundlevel"
+                    {
+                        "value" "75.000000"
+                    }
+                    "event_type"
+                    {
+                        "value"     "2.000000"
+                    }
+                }
+            }
+        }
+    }   
+}
+
+"ability.manniushi"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"          "sos_reference_stack"
+                "reference_stack"           "dota_src1_2d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"        "sounds/war3/war3_howlofterror.vsnd"
+                        }
+                    }
+                   "volume"
+                    {
+                        "value" "1.000000"
+                    }
+                    "pitch"
+                    {
+                        "value" "1.000000"
+                    }
+                    "soundlevel"
+                    {
+                        "value" "75.000000"
+                    }
+                    "event_type"
+                    {
+                        "value"     "2.000000"
+                    }
+                }
+            }
+        }
+    }   
+}
+
+"ability.shizihou"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"          "sos_reference_stack"
+                "reference_stack"           "dota_src1_2d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"        "sounds/war3/war3_sacrificeunit.vsnd"   
+                        }
+                    }
+                   "volume"
+                    {
+                        "value" "1.000000"
+                    }
+                    "pitch"
+                    {
+                        "value" "1.000000"
+                    }
+                    "soundlevel"
+                    {
+                        "value" "75.000000"
+                    }
+                    "event_type"
+                    {
+                        "value"     "2.000000"
+                    }
+                }
+            }
+        }
+    }   
+}
+
+"ability.breath1"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"          "sos_reference_stack"
+                "reference_stack"           "dota_src1_2d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"        "sounds/war3/war3_breathoffire1.vsnd"   
+                        }
+                    }
+                    "volume"
+                    {
+                        "value" "1.000000"
+                    }
+                    "pitch"
+                    {
+                        "value" "1.000000"
+                    }
+                    "soundlevel"
+                    {
+                        "value" "75.000000"
+                    }
+                    "event_type"
+                    {
+                        "value"     "2.000000"
+                    }
+                }
+            }
+        }
+    }   
+}
+"game.tingguai"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"          "sos_reference_stack"
+                "reference_stack"           "dota_src1_2d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"        "sounds/war3/war3_battlenettick.vsnd"   
+                        }
+                    }
+                    "volume"
+                    {
+                        "value" "1.000000"
+                    }
+                    "pitch"
+                    {
+                        "value" "1.000000"
+                    }
+                    "soundlevel"
+                    {
+                        "value" "75.000000"
+                    }
+                    "event_type"
+                    {
+                        "value"     "2.000000"
+                    }
+                }
+            }
+        }
+    }   
+}
+
+"bgm.jifengzhuan"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"          "sos_reference_stack"
+                "reference_stack"           "dota_src1_2d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"        "sounds/bgm/bgm_jifengzhuan.vsnd"
+                        }
+                    }
+                   "volume"
+                    {
+                        "value" "0.2"
+                    }
+                    "pitch"
+                    {
+                        "value" "1.000000"
+                    }
+                    "soundlevel"
+                    {
+                        "value" "35.000000"
+                    }
+                    "event_type"
+                    {
+                        "value"     "2.000000"
+                    }
+                }
+            }
+        }
+    }   
+}
+
+"bgm.mingshen"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"          "sos_reference_stack"
+                "reference_stack"           "dota_src1_2d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"        "sounds/bgm/bgm_mingshen.vsnd"
+                        }
+                    }
+                   "volume"
+                    {
+                        "value" "0.2"
+                    }
+                    "pitch"
+                    {
+                        "value" "1.000000"
+                    }
+                    "soundlevel"
+                    {
+                        "value" "35.000000"
+                    }
+                    "event_type"
+                    {
+                        "value"     "2.000000"
+                    }
+                }
+            }
+        }
+    }   
+}
+"bgm.tagexing"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"          "sos_reference_stack"
+                "reference_stack"           "dota_src1_2d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"        "sounds/bgm/bgm_tagexing.vsnd"
+                        }
+                    }
+                   "volume"
+                    {
+                        "value" "0.2"
+                    }
+                    "pitch"
+                    {
+                        "value" "1.000000"
+                    }
+                    "soundlevel"
+                    {
+                        "value" "35.000000"
+                    }
+                    "event_type"
+                    {
+                        "value"     "2.000000"
+                    }
+                }
+            }
+        }
+    }   
+}
+"bgm.qingkong"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"          "sos_reference_stack"
+                "reference_stack"           "dota_src1_2d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"        "sounds/bgm/bgm_qingkong.vsnd"
+                        }
+                    }
+                   "volume"
+                    {
+                        "value" "0.2"
+                    }
+                    "pitch"
+                    {
+                        "value" "1.000000"
+                    }
+                    "soundlevel"
+                    {
+                        "value" "35.000000"
+                    }
+                    "event_type"
+                    {
+                        "value"     "2.000000"
+                    }
+                }
+            }
+        }
+    }   
+}
+"bgm.yujianjianghu"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"          "sos_reference_stack"
+                "reference_stack"           "dota_src1_2d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"        "sounds/bgm/bgm_yujianjianghu.vsnd"
+                        }
+                    }
+                   "volume"
+                    {
+                        "value" "0.2"
+                    }
+                    "pitch"
+                    {
+                        "value" "1.000000"
+                    }
+                    "soundlevel"
+                    {
+                        "value" "35.000000"
+                    }
+                    "event_type"
+                    {
+                        "value"     "2.000000"
+                    }
+                }
+            }
+        }
+    }   
+}
+"bgm.jianguanbaihong"
+{
+    "operator_stacks"
+    {
+        "update_stack"
+        {
+            "reference_operator"
+            {
+                "operator"          "sos_reference_stack"
+                "reference_stack"           "dota_src1_2d"
+                "operator_variables"
+                {
+                    "vsnd_files"
+                    {
+                        "value"
+                        {
+                            "value0"        "sounds/bgm/bgm_jianguanbaihong.vsnd"
+                        }
+                    }
+                   "volume"
+                    {
+                        "value" "0.2"
+                    }
+                    "pitch"
+                    {
+                        "value" "1.000000"
+                    }
+                    "soundlevel"
+                    {
+                        "value" "35.000000"
+                    }
+                    "event_type"
+                    {
+                        "value"     "2.000000"
+                    }
+                }
+            }
+        }
+    }   
+}

@@ -1,0 +1,181 @@
+.OtherRoot
+{
+	height: 500px;
+    width: 100%;
+    horizontal-align: center;
+    vertical-align: center;
+}
+
+.ChuanSongPanel{
+    width: 323px;
+    height: 100%;
+    opacity: 1;
+    horizontal-align: center;
+    transform: translateY(0px);
+    
+    background-color: #272822;
+    border-radius: 20px;
+    transition-property: transform,opacity;
+    transition-duration: 0.2s;
+}
+
+#Fubencs{
+    visibility: collapse;
+}
+#Jxcs{
+    visibility: collapse;
+}
+
+.OtherRoot:disabled{
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.AreaList{
+    y: 55px;
+    width:98%;
+    height: 93%;
+    overflow: squish scroll;
+    flow-children:down;
+}
+
+.AreaList VerticalScrollBar .ScrollThumb, HTMLVerticalScrollBar .ScrollThumb{
+    background-color: yellow;
+    border-right: 10px;
+    border-radius: 30px;
+}
+
+.DoorTitle{
+    y: 4px;
+    color: white;
+    font-size: 40px;
+    horizontal-align: middle;
+    text-shadow: 1px 1px 1px #000000;
+    text-align: center;
+}
+
+.__to_btn{
+	background-repeat: no-repeat;
+	background-size: 100%;
+	horizontal-align: right;
+	width: 336px;
+	height: 60px;
+
+	transition-property: background-image,transform;
+	transition-duration: 0.3s;
+}
+
+.__to_btn:hover{
+
+	transform: rotatex(30deg);
+
+	box-shadow: fill 10px 0px 0px #C8BFE7;
+}
+
+.__to_text
+{
+    margin-top: 20px;
+    horizontal-align: center;
+    font-size: 30px;
+}
+
+#PKPanel
+{
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    background-color: #272822;
+    flow-children:down;
+    border-radius: 20px;
+    horizontal-align: right;
+    visibility: collapse;
+}
+#PkTitle
+{
+    horizontal-align: center;
+    vertical-align: center;
+    font-size: 30px;
+}
+#PlayerList
+{
+    horizontal-align: center;
+    flow-children:down;
+    overflow: squish scroll;
+}
+#PlayerList VerticalScrollBar .ScrollThumb, HTMLVerticalScrollBar .ScrollThumb{
+    background-color: yellow;
+    border-right: 10px;
+    border-radius: 30px;
+}
+#PlayerBtn{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    horizontal-align: center;
+    width: 336px;
+    height: 60px;
+
+    transition-property: background-image,transform;
+    transition-duration: 0.3s;
+}
+
+#PlayerBtn:hover{
+
+    transform: rotatex(30deg);
+
+    box-shadow: fill 10px 0px 0px #C8BFE7;
+}
+#__PlayerID
+{
+    horizontal-align: center;
+    font-size: 32px;
+    vertical-align: center;
+}
+
+#FbPanel
+{
+    height: 300px;
+    width: 300px;
+    horizontal-align: center;
+    vertical-align: center;
+    background-color: #272822;
+    flow-children:down;
+    border-radius: 10px;
+    visibility: collapse;
+}
+#FbTitle
+{
+    font-size: 32px;
+    horizontal-align: center;
+}
+#ButtonPabel
+{
+    flow-children:down;
+    
+}
+#fb_img
+{
+    opacity: 0.3;
+    height: 150px;
+}
+.fb_btn
+{
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    horizontal-align: center;
+}
+.fb_btn:hover
+{
+    background-color: green;
+    border: 3px solid black;
+}
+.fb_btn:active
+{
+    background-color: red;
+}
+.fb_btn_text
+{
+    horizontal-align: center;
+    vertical-align: center;
+    font-size: 40px;
+}

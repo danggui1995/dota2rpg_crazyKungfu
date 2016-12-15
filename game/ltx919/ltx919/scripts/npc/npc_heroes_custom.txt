@@ -1,0 +1,361 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	//===============================================================================================
+	// HERO: Templar Assassin
+	//===============================================================================================
+	"npc_dota_hero_juggernaut"
+	{
+		// General
+		"override_hero"			    "npc_dota_hero_juggernaut"
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+		"AttributeStrengthGain"		"1.9"									
+		"AttributeIntelligenceGain"	"1.4"									
+		"AttributeAgilityGain"		"5"								
+	}
+
+	"npc_dota_hero_axe"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"				"npc_dota_hero_axe"
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+		"AttributeStrengthGain"		"4"								
+		"AttributeIntelligenceGain"	"1.6"									
+		"AttributeAgilityGain"		"2.2"									
+		
+	}	
+
+	"npc_dota_hero_antimage"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"				"npc_dota_hero_antimage"
+		// Attributes
+		//-------------------------------------------------------------------------------------------
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+		"AttributeStrengthGain"		"1.2"									
+		"AttributeIntelligenceGain"	"1.8"									
+
+		"AttributeAgilityGain"		"5"									
+	}	
+
+	"npc_dota_hero_chaos_knight"	
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"					"npc_dota_hero_chaos_knight"
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+		// Attributes
+		//-------------------------------------------------------------------------------------------
+		"AttributeStrengthGain"			"5"									
+		"AttributeAgilityGain"			"2.1"									
+		
+		"AttributeIntelligenceGain"		"0.6"									
+
+		
+	}
+
+	"npc_dota_hero_tiny"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"				"npc_dota_hero_tiny"
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+
+
+		"AttributeStrengthGain"		"6"									
+		"AttributeIntelligenceGain"	"1.6"									
+
+		"AttributeAgilityGain"		"1.8"									
+
+	
+	}	
+
+	"npc_dota_hero_phantom_assassin"	
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"					"npc_dota_hero_phantom_assassin"
+		
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+		// Attributes
+		//-------------------------------------------------------------------------------------------
+		"AttributeStrengthGain"			"1.85"									
+	
+		"AttributeAgilityGain"			"5"							
+	
+		"AttributeIntelligenceGain"		"2"		
+	}		
+
+	"npc_dota_hero_dazzle"	
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"					"npc_dota_hero_dazzle"
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+		// Attributes
+		//-------------------------------------------------------------------------------------------
+		"AttributeStrengthGain"			"1.85"									
+	
+		"AttributeAgilityGain"			"1.7"							
+	
+		"AttributeIntelligenceGain"		"5"		
+	}		
+
+	"npc_dota_hero_huskar"	
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"					"npc_dota_hero_huskar"
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+		// Attributes
+		//-------------------------------------------------------------------------------------------
+		"AttributeStrengthGain"			"4"									
+	
+		"AttributeAgilityGain"			"1.4"							
+	
+		"AttributeIntelligenceGain"		"1.5"		
+	}		
+
+	"npc_dota_hero_life_stealer"	
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"					"npc_dota_hero_life_stealer"
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+		// Attributes
+		//-------------------------------------------------------------------------------------------
+		"AttributeStrengthGain"			"5"									
+	
+		"AttributeAgilityGain"			"1.75"							
+	
+		"AttributeIntelligenceGain"		"1.9"		
+	}	
+
+	"npc_dota_hero_legion_commander"	
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"					"npc_dota_hero_legion_commander"
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+		// Attributes
+		//-------------------------------------------------------------------------------------------
+		"AttributeStrengthGain"			"6"									
+	
+		"AttributeAgilityGain"			"1.3"							
+	
+		"AttributeIntelligenceGain"		"1.5"		
+	}	
+
+	"npc_dota_hero_lina"	
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"					"npc_dota_hero_lina"
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+
+		// Attributes
+		//-------------------------------------------------------------------------------------------
+		"AttributeStrengthGain"			"1.5"									
+	
+		"AttributeAgilityGain"			"1.5"							
+	
+		"AttributeIntelligenceGain"		"5"		
+	}	
+	
+	"npc_dota_hero_sniper"	
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"					"npc_dota_hero_sniper"
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+		// Attributes
+		//-------------------------------------------------------------------------------------------
+		"AttributeStrengthGain"			"1.4"									
+	
+		"AttributeAgilityGain"			"4"							
+	
+		"AttributeIntelligenceGain"		"2.6"		
+	}	
+
+	"npc_dota_hero_sven"	
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"					"npc_dota_hero_sven"
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+		// Attributes
+		//-------------------------------------------------------------------------------------------
+		"AttributeStrengthGain"			"5.4"									
+	
+		"AttributeAgilityGain"			"2.0"							
+	
+		"AttributeIntelligenceGain"		"1.3"		
+	}	
+
+	"npc_dota_hero_tinker"	
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"					"npc_dota_hero_tinker"
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+		// Attributes
+		//-------------------------------------------------------------------------------------------
+		"AttributeStrengthGain"			"2.0"									
+	
+		"AttributeAgilityGain"			"1.2"							
+	
+		"AttributeIntelligenceGain"		"5.4"		
+	}	
+
+	"npc_dota_hero_windrunner"	
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"					"npc_dota_hero_windrunner"
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+		// Attributes
+		//-------------------------------------------------------------------------------------------
+		"AttributeStrengthGain"			"3.5"									
+	
+		"AttributeAgilityGain"			"1.4"							
+	
+		"AttributeIntelligenceGain"		"4.2"		
+	}	
+
+	"npc_dota_hero_witch_doctor"	
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"					"npc_dota_hero_witch_doctor"
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+		// Attributes
+		//-------------------------------------------------------------------------------------------
+		"AttributeStrengthGain"			"1.8"									
+	
+		"AttributeAgilityGain"			"1.4"							
+	
+		"AttributeIntelligenceGain"		"5.8"		
+	}	
+	
+	"npc_dota_hero_zuus"	
+	{
+		// General
+		//-------------------------------------------------------------------------------------------
+		"override_hero"					"npc_dota_hero_zuus"
+		"AbilityLayout"             "5"  
+		"Ability1"					"ability_empty1"
+		"Ability2"					"ability_empty2"
+		"Ability3"					"ability_empty3"
+		"Ability4"					"ability_empty4"
+		"Ability5"					"ability_empty5"
+		"Ability6"					""
+
+		// Attributes
+		//-------------------------------------------------------------------------------------------
+		"AttributeStrengthGain"			"2.3"									
+	
+		"AttributeAgilityGain"			"1.2"							
+	
+		"AttributeIntelligenceGain"		"4.4"		
+	}	
+}
