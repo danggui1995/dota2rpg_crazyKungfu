@@ -1,2 +1,2 @@
 # dota2rpg_crazyKungfu
-a hero defence map of dota2
+a hero defense map of dota2
