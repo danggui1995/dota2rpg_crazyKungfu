@@ -1,0 +1,29 @@
+#countDownPanel{
+	height: 100px;
+	width: 200px;
+	flow-children:down;
+
+}
+
+#countDownLabelPanel{
+	height: 50%;
+	width: 100%;
+}
+
+#countDownLabel{
+	font-size: 30px;
+	color:blue;
+}
+
+#countDownBarPanel{
+	height: 50%;
+	width: 100%;
+	visibility: collapse;
+}
+
+#countDownBar{
+	height: 30%;
+	width: 100%;
+	background-color: blue;
+	vertical-align: middle;
+}

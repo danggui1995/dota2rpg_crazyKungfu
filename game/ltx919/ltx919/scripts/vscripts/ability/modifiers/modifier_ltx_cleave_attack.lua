@@ -4,6 +4,7 @@ end
 
 function modifier_ltx_cleave_attack:OnCreated(kv)
 	self.cleave_radius = kv.radius or 300
+	self.cleave_radius2 = kv.radius2 or self.cleave_radius
 	self.cleave_percent = kv.cleave or 30
 	self.cleave_particle = kv.particle or "particles/units/heroes/hero_sven/sven_spell_great_cleave.vpcf"
 	self.cleave_sound = kv.sound or "DOTA_Item.BattleFury"
@@ -34,7 +35,7 @@ function modifier_ltx_cleave_attack:OnAttackLanded(params)
             local target = params.target
             if target ~= nil and target:GetTeamNumber() ~= hCaster:GetTeamNumber() then
                 local cleaveDamage = ( self.cleave_percent * params.damage ) / 100.0
-                DoCleaveAttack( hCaster, target, self:GetAbility(), cleaveDamage, self.cleave_radius, self.cleave_particle )
+                DoCleaveAttack( hCaster, target, self:GetAbility(), cleaveDamage, self.cleave_radius,self.cleave_radius2 self.cleave_particle )
             end
         end
 	end

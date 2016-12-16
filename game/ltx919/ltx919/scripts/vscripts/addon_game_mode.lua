@@ -786,19 +786,19 @@ function ShowQuestBar( data )
 	local __time = data or GameRules.global_time
 	if GameRules._entCountDown == nil then
 		GameRules.t_downtime = GameRules:GetGameTime() + __time - GameRules.time_start
-		GameRules._entCountDown = SpawnEntityFromTableSynchronous( "quest", {
-			--name = "#CFRoundCountingDown",
-			name = "CountingDown",
-			title =  "nextwave"
-		})
-		GameRules._entCountDown:SetTextReplaceValue( QUEST_TEXT_REPLACE_VALUE_ROUND, GameRules.gw_lv+1)
+		-- GameRules._entCountDown = SpawnEntityFromTableSynchronous( "quest", {
+		-- 	--name = "#CFRoundCountingDown",
+		-- 	name = "CountingDown",
+		-- 	title =  "nextwave"
+		-- })
+		-- GameRules._entCountDown:SetTextReplaceValue( QUEST_TEXT_REPLACE_VALUE_ROUND, GameRules.gw_lv+1)
 
-		GameRules._entCountDownBar = SpawnEntityFromTableSynchronous( "subquest_base", {
-			show_progress_bar = true,
-			progress_bar_hue_shift = -100
-		} )
-		GameRules._entCountDown:AddSubquest( GameRules._entCountDownBar )
-		GameRules._entCountDownBar:SetTextReplaceValue( SUBQUEST_TEXT_REPLACE_VALUE_TARGET_VALUE, __time)
+		-- GameRules._entCountDownBar = SpawnEntityFromTableSynchronous( "subquest_base", {
+		-- 	show_progress_bar = true,
+		-- 	progress_bar_hue_shift = -100
+		-- } )
+		-- GameRules._entCountDown:AddSubquest( GameRules._entCountDownBar )
+		-- GameRules._entCountDownBar:SetTextReplaceValue( SUBQUEST_TEXT_REPLACE_VALUE_TARGET_VALUE, __time)
 		
 		CountDownThink()
 	end
@@ -999,18 +999,18 @@ end
 
 function CountDownThink(  )
 	-- body
-	if GameRules:State_Get() == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
-		GameRules:GetGameModeEntity():SetContextThink(DoUniqueString("start_sg"),
-			function(  )
-				-- body
-				local t_Time = GameRules.t_downtime - GameRules:GetGameTime()+GameRules.time_start 
-				if GameRules._entCountDownBar~=nil then
-					GameRules._entCountDownBar:SetTextReplaceValue( QUEST_TEXT_REPLACE_VALUE_CURRENT_VALUE,
-					 t_Time)
-				end
-				return 1
-			end,0)
-	end
+	-- if GameRules:State_Get() == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
+	-- 	GameRules:GetGameModeEntity():SetContextThink(DoUniqueString("start_sg"),
+	-- 		function(  )
+	-- 			-- body
+	-- 			local t_Time = GameRules.t_downtime - GameRules:GetGameTime()+GameRules.time_start 
+	-- 			if GameRules._entCountDownBar~=nil then
+	-- 				GameRules._entCountDownBar:SetTextReplaceValue( QUEST_TEXT_REPLACE_VALUE_CURRENT_VALUE,
+	-- 				 t_Time)
+	-- 			end
+	-- 			return 1
+	-- 		end,0)
+	-- end
 end
 function RollDrops(unit,attacker)
     local DropInfo = GameRules.DropTable[unit:GetUnitName()]
@@ -1281,22 +1281,22 @@ function newShowQuest()
 end
 
 function showTotalProgress(  )
-	if _G.totalProgress == nil then
-		_G.totalProgress = SpawnEntityFromTableSynchronous( "quest", {
-			--name = "#CFRoundCountingDown",
-			name = "TotalProgress",
-			title =  "wavenum"
-		})
-		_G.totalProgressBar = SpawnEntityFromTableSynchronous( "subquest_base", {
-			show_progress_bar = true,
-			progress_bar_hue_shift = -100
-		} )
-		_G.totalProgress:AddSubquest( _G.totalProgressBar )
-	end
+	-- if _G.totalProgress == nil then
+	-- 	_G.totalProgress = SpawnEntityFromTableSynchronous( "quest", {
+	-- 		--name = "#CFRoundCountingDown",
+	-- 		name = "TotalProgress",
+	-- 		title =  "wavenum"
+	-- 	})
+	-- 	_G.totalProgressBar = SpawnEntityFromTableSynchronous( "subquest_base", {
+	-- 		show_progress_bar = true,
+	-- 		progress_bar_hue_shift = -100
+	-- 	} )
+	-- 	_G.totalProgress:AddSubquest( _G.totalProgressBar )
+	-- end
 	
-	_G.totalProgressBar:SetTextReplaceValue( SUBQUEST_TEXT_REPLACE_VALUE_TARGET_VALUE, 30)
-	_G.totalProgress:SetTextReplaceValue( QUEST_TEXT_REPLACE_VALUE_CURRENT_VALUE, GameRules.gw_lv)
-	_G.totalProgressBar:SetTextReplaceValue( QUEST_TEXT_REPLACE_VALUE_CURRENT_VALUE,GameRules.gw_lv)
+	-- _G.totalProgressBar:SetTextReplaceValue( SUBQUEST_TEXT_REPLACE_VALUE_TARGET_VALUE, 30)
+	-- _G.totalProgress:SetTextReplaceValue( QUEST_TEXT_REPLACE_VALUE_CURRENT_VALUE, GameRules.gw_lv)
+	-- _G.totalProgressBar:SetTextReplaceValue( QUEST_TEXT_REPLACE_VALUE_CURRENT_VALUE,GameRules.gw_lv)
 end
 
 function newChuGuai()
