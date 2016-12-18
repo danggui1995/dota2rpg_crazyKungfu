@@ -1,0 +1,36 @@
+﻿<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/base_panel.css"/>
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/baseupui.js"/>
+	</scripts>
+	<Panel hittest="false">
+		<Panel id="mid_container" class="mid_container" hittest="false">
+			<Panel id= "mc_top" hittest="false">
+				<Panel id= "quit_panel" hittest="false">
+					<Button id= "base_up_quit" onactivate="ShowBaseUp()"> 
+						<Image id="image_base_up_quit" src="file://{images}/custom_game/quit.png"/>
+					</Button>
+				</Panel>
+			</Panel>
+			<Panel id = "lv_armor_panel" hittest="false">
+					<Label id= "armor_lv_des" text="1"/>
+			</Panel>
+			<Panel id = "armor_up_panel" hittest="false">
+				<Panel id="btn_panel" hittest="false">
+					<Button id= "armor_up_image" onactivate="BaseUpArmor()" onmouseover="_ShowTooltip()"
+					onmouseout="_HideTooltip()"> 
+						<Image id="image_armor_up" src="file://{images}/custom_game/base_up.png"/>
+					</Button>
+					<Button id= "up_shengwang_btn" onactivate="UpShengwang()" onmouseover="__ShowTooltip()"
+					onmouseout="_HideTooltip()"> 
+						<Image id="image_up2" src="file://{images}/custom_game/base_up.png"/>
+					</Button>
+				</Panel>
+				<Label id= "armor_up_des" text= "#GainArmor" />
+			</Panel>
+				
+		</Panel>
+	</Panel>
+</root>

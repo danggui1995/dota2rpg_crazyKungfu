@@ -1,0 +1,36 @@
+"AddonInfo"
+{
+    "maps"                   "ltx919"
+    "IsPlayable"             "1"
+    "ltx919"
+    {
+      "MaxPlayers"        "6"
+    }
+	"Default_Keys"
+    {
+        "01"
+        {
+            "Key"       "`"
+            "Command"   "btnquest"
+            "Name"      "k1"
+        }
+        "02"
+        {
+            "Key"       "J"
+            "Command"   "btnjidi"
+            "Name"      "k3"
+        }
+        "03"
+        {
+            "Key"       "B"
+            "Command"   "btnhuicheng"
+            "Name"      "k2"
+        }
+        "04"
+        {
+            "Key"       "F"
+            "Command"   "btnforge"
+            "Name"      "k4"
+        }
+    }
+}

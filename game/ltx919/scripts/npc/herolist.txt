@@ -1,0 +1,24 @@
+//
+// <key>	<value>
+// Hero		currently on/off, will be # of instances (-1 = infinite)
+//
+
+"CustomHeroList"
+{
+	"npc_dota_hero_antimage"			"1"
+	"npc_dota_hero_axe"					"1"
+	"npc_dota_hero_chaos_knight"		"1"
+	"npc_dota_hero_dazzle"				"1"
+	"npc_dota_hero_juggernaut"			"1"
+	"npc_dota_hero_legion_commander"				"1"
+	"npc_dota_hero_life_stealer"		"1"
+	"npc_dota_hero_lina"				"1"
+	"npc_dota_hero_phantom_assassin"	"1"
+	"npc_dota_hero_sniper"				"1"
+	"npc_dota_hero_sven"				"1"
+	"npc_dota_hero_tinker"				"1"
+	"npc_dota_hero_tiny"				"1"
+	"npc_dota_hero_windrunner"			"1"	
+	"npc_dota_hero_witch_doctor"		"1"
+	"npc_dota_hero_zeus"				"1"
+}

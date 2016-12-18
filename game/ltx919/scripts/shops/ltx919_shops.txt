@@ -1,0 +1,221 @@
+"dota_shops"
+{
+        "consumables"  //消耗品
+        {
+          "item"                  "item_hong1"                                                 
+          "item"                  "item_hong2"
+          "item"                  "item_lan1"
+          "item"                  "item_lan2"
+          "item"                  "item_yao3"
+           "item"                  "item_nvwashi"
+          "item"                  "item_zhenyafu"
+          "item"                  "item_suijishu1"
+          "item"                  "item_shengjishu1"
+          "item"                  "item_shengjishu2"
+          "item"                  "item_shengjishu3"
+          "item"                  "item_shengjishu4"
+          "item"                  "item_hechengshi1"
+          "item"                  "item_hechengshi2"
+        }
+
+        "attributes"  //属性物品
+        {
+          "item"                  "item_guanjin1_touk"  
+          "item"                  "item_jian1_wuqi" 
+          "item"                  "item_fu1_wuqi"  
+          "item"                  "item_fazhang1_wuqi"  
+          "item"                  "item_pijia1_yifu"  
+          "item"                  "item_jiezhi1_yifu"  
+          "item"                  "item_dao1_wuqi"  
+          "item"                  "item_shoutao1_touk" 
+          "item"                  "item_qiang1_wuqi" 
+           "item"                  "item_xie1_xiez" 
+
+                //"item"                  "item_gong2" 
+               // "item"                  "item_gong3"  
+               // "item"                  "item_gong4"
+                 
+                //"item"                  "item_jian2" 
+               // "item"                  "item_jian3"  
+                //"item"                  "item_jian4" 
+                
+                //"item"                  "item_fu2" 
+                //"item"                  "item_fu3"  
+                //"item"                  "item_fu4" 
+               
+                //"item"                  "item_fazhang2" 
+                //"item"                  "item_fazhang3"  
+                //"item"                  "item_fazhang4"
+               //"item"          "item_remove1"
+                //"item"          "item_remove2"
+               //  "item"          "item_remove3"
+                //  "item"          "item_remove4"
+               //   "item"        "item_jiuyangshengong"
+             //     "item"            "item_jiuyinzhenjing"
+                //  "item"            "item_omniknight_guardian_angel_datadriven"
+        }
+
+        "weapons_armor"
+        {
+          // "item"                  "item_leitingbaoshi"  
+          // "item"                  "item_gongjibaoshi" 
+          // "item"                  "item_shengmingzhishi"  
+          // "item"                  "item_mofazhishi"  
+          // "item"                  "item_fangyubaoshi"  
+          // "item"                  "item_hanbingbaoshi"  
+          // "item"                  "item_huoyanbaoshi"  
+          // "item"                  "item_fushibaoshi"  
+                //"item"                  "item_pijia2" 
+                //"item"                  "item_pijia3"  
+                //"item"                  "item_pijia4"
+
+               // "item"                  "item_jiezhi2" 
+               // "item"                  "item_jiezhi3"  
+               // "item"                  "item_jiezhi4" 
+     
+               // "item"                  "item_shoutao2" 
+                //"item"                  "item_shoutao3"  
+               // "item"                  "item_shoutao4"    
+
+              //  "item"                  "item_xie2" 
+              //  "item"                  "item_xie3"  
+               // "item"                  "item_xie4"
+            "item"         "item_cctt"
+            "item"         "item_ffyy"
+            "item"         "item_llll"
+            "item"         "item_xxtt"
+            //"item"                  "item_tiandunshi"
+          "item"                  "item_remove1"  
+          "item"                  "item_remove2" 
+          "item"                  "item_remove3" 
+          "item"                  "item_remove4" 
+           
+        }
+                        
+        "misc"
+        {
+          "item"         "item_jiutianxuannvzhang_wuqi"
+            "item"         "item_jiutianxuannvyi_xiez"
+            "item"         "item_jiutianxuannvshan_yifu"
+            "item"         "item_jiutianxuannvguan_touk"
+            "item"         "item_moshendao_wuqi"
+            "item"         "item_moshenzhiyi_xiez"
+            "item"         "item_moshenkui_touk"
+            "item"         "item_chiyoudao_wuqi"
+            "item"         "item_chiyouxie_xiez"
+            "item"         "item_chiyoujia_yifu"
+            "item"         "item_chiyoujiao"
+            "item"         "item_chiyouxue"
+                // "item"                  "item_anmie1"  
+                // "item"                  "item_leitingzhijian"  
+                // "item"                  "item_leitingzhigong"  
+                // "item"                  "item_qingshuangjian"  
+                // "item"                  "item_dadijia1"  
+                // "item"                  "item_xuanwujia1"  
+                // "item"                  "item_yitianjian1"  
+                // "item"                  "item_xiangxue"  
+                // "item"                  "item_houyigong1"  
+                // "item"                  "item_qumozhizhang1"  
+                // "item"                  "item_hupo1" 
+                // "item"                  "item_tianjing1"   
+                // "item"                  "item_xueyinkuangdao1"
+        }        
+        
+        // Level 1 - Green Recipes
+        "basics"
+        {
+            //    "item"              "item_frozen_bomb"
+             //   "item"              "item_ancient_seal"
+              "item"         "item_xuanwuzhanjia_yifu"
+            "item"         "item_xuanwutoukui_touk"
+            "item"         "item_xuanwudadun"
+
+            "item"         "item_baihuyajian_wuqi"
+            "item"         "item_baihutoujing_touk"
+             "item"         "item_baihuzhanpao_yifu"
+              "item"         "item_zhenhunzhang_wuqi"
+            "item"         "item_zhenhunjia_yifu"
+            "item"         "item_houyigong_wuqi"
+            "item"         "item_houyijian"
+        }
+
+        // Level 2 - Blue Recipes
+        "support"
+        {
+                 "item"         "item_qinggangjian1_wuqi"
+            "item"         "item_liguangzhigong1_wuqi"
+            "item"         "item_yanlingjia1_yifu"
+
+            "item"         "item_longlinjia1_yifu"
+            "item"         "item_fangtianhuaji1_wuqi"
+             "item"         "item_dingwenzhang1_wuqi"
+
+              "item"         "item_qixingdeng1"
+              "item"      "item_xingtianfu_wuqi"
+              "item"      "item_xingtiandun"
+        }
+                                
+        "magics"                        
+        {
+                 "item"         "item_zhanshe_wuqi"
+            "item"         "item_xuanyuanjian_wuqi"
+            "item"         "item_yitianjian_wuqi"
+
+            "item"         "item_yangyouji_wuqi"
+            "item"         "item_shuishenji_wuqi"
+             "item"         "item_qixingbaodao_wuqi"
+
+              "item"         "item_riyueqiankunlun_wuqi"
+
+                "item"         "item_zhangbashemao_wuqi"
+            "item"         "item_longdanqiang_wuqi"
+            "item"         "item_wentianqiang_wuqi"
+
+            "item"         "item_pangufu_wuqi"
+            "item"         "item_miyinchui_wuqi"
+             "item"         "item_huoshendun"
+        }
+                
+        // Level 3 - Purple Recipes        
+        "defense"
+        {
+               "item"         "item_qinglongdao_wuqi"
+            "item"         "item_qinglongzhanxue_xiez"
+            "item"         "item_qinglongkaijia_yifu"
+
+            "item"         "item_zhuquetouguan_touk"
+            "item"         "item_zhuqueyushan_wuqi"
+            "item"         "item_zhuqueyuyi_yifu"
+
+            "item"         "item_xuantieshouji_wuqi"
+            "item"         "item_xuantieyaodai"
+
+            "item"         "item_xiangyuhushou"
+            "item"         "item_xiangyuzhanren_wuqi"
+            "item"         "item_xiangyukanjia_yifu"
+            "item"         "item_xiangyutoukui_touk"
+        }
+                        
+        "weapons"
+        {
+                
+        }
+                
+        // Level 4 - Orange / Orb / Artifacts                                
+        "artifacts" 
+        {   
+                
+        }
+
+        "sideshop1"  //路边商店1
+        {
+        }
+
+        "sideshop2"  //路边商店2
+        {
+        }
+        
+        "secretshop"  //神秘商店
+        {                                                        
+        }        
+}

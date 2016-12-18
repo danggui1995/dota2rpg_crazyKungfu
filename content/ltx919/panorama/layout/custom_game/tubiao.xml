@@ -1,0 +1,69 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/tubiao.css"/>
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/tubiao.js"/>
+	</scripts>
+	<Panel class="root" hittest="false">
+		<Panel class= "other_show" hittest="false">
+			<Panel id= "shengwang_panel" hittest="false">
+				<Label id= "shengwang_label1" text= "#shengwang"/>
+				<Label id= "shengwang_label2" text= "0"/>
+			</Panel>
+			<Panel id= "nlys_panel" hittest="false">
+				<Label id= "nlys_label1" text= "#nlys"/>
+				<Label id= "nlys_label2" text= "0"/>
+			</Panel>
+		</Panel>
+		<!--
+		<Panel id= "boshu_panel" hittest="false">
+			<Label id= "boshu_label1" text= "#dangqianboshu"/>
+			<Label id= "boshu_label2" text= "1"/>
+		</Panel>
+		-->
+		<Panel class= "main_111" hittest="false">
+			
+			<Panel id= "btn_showbase_panel" hittest="false">
+				<Button class="ButtonBevel" id="btn_showbase_des" onactivate="ShowBaseUp()" onmouseover="showToolTip('#BaseCommand',1)"
+				onmouseout="hideTootip()">
+			<!-- 		<Label text="#BaseCommand" class="showlabel2"></Label> -->
+			<Label text="J" class="showlabel2"></Label>
+				</Button>
+			</Panel>
+			<Panel id= "btn_hc_panel" hittest="false">
+				<Button class="ButtonBevel" id="btn_hc_des" onactivate="SearchForgeInfo()" onmouseover="showToolTip('#forgeInfo',2)"
+				onmouseout="hideTootip()">
+					<!-- <Label text="#forgeInfo" class="showlabel2"></Label> -->
+					<Label text="F" class="showlabel2"></Label>
+				</Button>
+			</Panel>
+			<Panel id= "btn_hc_panel2" hittest="false">
+				<Button class="ButtonBevel" id="btn_hc" onactivate="OnHuiCheng()" onmouseover="showToolTip('#huicheng',3)"
+				onmouseout="hideTootip()">
+					<!-- <Label text="#huicheng" class="showlabel2"></Label> -->
+					<Label text="B" class="showlabel2"></Label>
+				</Button>
+			</Panel>
+			<!--
+			
+			<Panel id= "btn_pk_panel" hittest="false">
+				<Button class="ButtonBevel" id="btn_pk_des" onactivate="ShowPk()">
+					<Label text="#ShowPk"></Label>
+				</Button>
+			</Panel>
+			<Panel id= "btn_tg_panel" hittest="false">
+				<Button class="ButtonBevel" id="btn_tg_des" onactivate="OnTingGuai()" onmouseover="_ShowTooltip()"
+					onmouseout="_HideTooltip()">
+					<Label text="#TingGuai"></Label>
+				</Button>
+			</Panel>-->
+		</Panel>
+		<!--
+		<Panel id="btn_showshop_panel">
+			<Button class="ButtonBevel" id="btn_showshop" onactivate="ShowShop()">
+				<Label text="#ShowShop"></Label>
+			</Button>
+		</Panel>-->
+	</Panel>
+</root>

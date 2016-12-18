@@ -1,0 +1,201 @@
+
+.mid_container
+{
+	border-radius: 10px;
+	height: 300px;
+	width: 500px;
+	margin-left: 700px;
+	margin-top: 350px;
+	vertical-align: middle;
+	horizontal-align:center;
+	visibility: collapse;
+	background-color: #000000dd;
+	flow-children:down;
+}
+
+#mc_top
+{
+	height: 20%;
+	width: 100%;
+	flow-children:right;
+	
+}
+#lv_armor_panel
+{
+	height:30%;
+	width:70%;
+	padding-left: 10%;
+	flow-children:right;
+
+}
+
+#quit_panel
+{
+	height: 100%;
+	width: 100%;
+	flow-children:right;
+
+	padding-left: 90%;
+	padding-top: 5px;
+}
+#armor_lv_des
+{
+	font-size: 45px;
+	/*text-transform: uppercase;*/
+	color: #dddddd;
+	margin-left: 10%;
+	margin-top: 20%;
+	flow-children:right;
+}
+
+#base_up_quit
+{
+	height: 48px;
+	width: 48px;
+	border-radius: 5px;
+}
+#image_base_up_quit:hover
+{
+	border: 1px solid #eeeeee;
+}
+#base_up_quit:active
+{
+	border: 4px solid #eeeeee;
+}
+
+#armor_up_panel
+{
+
+	height:80%;
+	width:100%;
+	flow-children:down;
+
+}
+#btn_panel
+{
+	flow-children:right;
+	height: 60%;
+	width: 100%;
+
+}
+
+#armor_up_image
+{
+	height:64px;
+	width:64px;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+#up_shengwang_btn
+{
+	margin-left: 20px;
+	height:64px;
+	width:64px;
+	margin-top: 10%;
+}
+#armor_up_des
+{
+	margin-left: 10%;
+	flow-children:down;
+	font-size: 20px;
+	/*text-transform: uppercase;*/
+	color: #cccccc;
+}
+#armor_up_image:hover
+{
+	border: 2px solid #eeeeee;
+}
+#armor_up_image:active
+{
+	border: 4px solid #eeeeee;
+}
+#image_up2:hover
+{
+	border: 2px solid #eeeeee;
+}
+#image_up2:active
+{
+	border: 4px solid #eeeeee;
+}
+
+#forge_item
+{
+	margin-left: 40px;
+	margin-top: 20%;
+	height:88px;
+	width:88px;
+}
+#forgeInfo1{
+	margin-left:100px;
+	margin-top: 10%;
+	height:48px;
+	width:288px;
+	background-color: gray;
+	opacity: 0.8;
+}
+#forgeInfo1:hover{
+	background-color: green;
+	opacity: 0.5;
+}
+#suitInfo{
+	margin-left:100px;
+	margin-top: 10px;
+	height:48px;
+	width:288px;
+	background-color: gray;
+	opacity: 0.8;
+}
+#suitInfo:hover{
+	background-color: green;
+	opacity: 0.5;
+}
+#forgeInfo2:hover{
+	background-color: green;
+	opacity: 0.5;
+}
+Label{
+	vertical-align: middle;
+	horizontal-align:center;
+	color:black;
+	font-size: 30px;
+}
+
+#forgeInfo2{
+	margin-left:100px;
+	margin-top: 10px;
+	height:48px;
+	width:288px;
+	background-color: gray;
+	opacity: 0.8;
+}
+#forge_item_panel
+{
+	height:80%;
+	width:100%;
+	flow-children:down;
+}
+
+#forge_item_btn_panel
+{
+	flow-children:right;
+	height: 100%;
+	width: 100%;
+
+}
+
+#forge_item_img
+{
+	height:120px;
+	width:120px;
+}
+
+#forge_item:hover
+{
+	border: 2px solid #eeeeee;
+}
+#forge_item:active
+{
+	border: 4px solid #eeeeee;
+}
+
+
