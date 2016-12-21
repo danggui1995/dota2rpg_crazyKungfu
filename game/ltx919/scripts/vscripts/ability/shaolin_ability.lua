@@ -6,7 +6,7 @@ function OnQinLongShou( data )
 	local pos_c = hCaster:GetAbsOrigin()
 	local forward = (pos_c - pos_t)
 	local forward_nor = forward:Normalized()
-	local speed = data.speed
+	local speed = data.distance/data.duration
 	local tick = 0.02
 	if forward:Length2D()<100 then
 		if hTarget:HasModifier("modifier_qinlongshou_zhua_debuff") then

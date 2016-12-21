@@ -114,8 +114,8 @@ GameRules.tzsx =
 	["jiutianxuannv"] = {4,"taozhuang_jiutianxuannv"},
 	["chiyou"] = {5,"taozhuang_chiyou"}
 }
-GameRules.global_time = 30--130
-GameRules.global_cdTime = 10--30
+GameRules.global_time = 130--130
+GameRules.global_cdTime = 30--30
 
 --dota_max_physical_items_purchase_limit
 
@@ -1724,8 +1724,8 @@ function sendCountDownBarInfo(curTime)
 		CustomGameEventManager:Send_ServerToAllClients("refresh_countDownBar",{id=_G.cdId,curTime=curTimeIndex,name="no{0}wave",total=GameRules.global_cdTime,params={GameRules.gw_lv}})
 	end
 
-
-
+	ShowDiffcult()
+	--[[加入]]
 	--[[todo other count down bar]]
 end
 

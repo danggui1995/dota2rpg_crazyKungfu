@@ -879,3 +879,32 @@ function OnLianJi( event )
 	local ability = event.ability
 	hCaster:PerformAttack(target,false,false,true,true,false)
 end
+
+function healForCalcu(event) 
+
+	local hCaster = event.caster
+	local ability = event.ability
+	local target = event.target
+	local attack_damage = event.attack_damage
+	local per = event.per 
+	local healAmount = attack_damage*per/100
+	target:Heal(healAmount,ability)
+
+end
+
+function tZQLFT( event )
+	local hCaster = event.caster
+
+	local ability = event.ability
+	local target = event.target 
+	local attack_damage = event.attack_damage
+	local fantan = event.fantan
+	local damageTable = 
+	{
+		victim = target,    --受到伤害的单位
+        attacker = hCaster,          --造成伤害的单位
+        damage = attack_damage*fantan/100,
+        damage_type = DAMAGE_TYPE_PURE
+    }
+	local num = ApplyDamage(damageTable)
+end

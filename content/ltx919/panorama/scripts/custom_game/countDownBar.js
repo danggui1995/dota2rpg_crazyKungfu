@@ -109,17 +109,20 @@ function refreshCountDownBar(data){
 function addPermanentBar(data) {
 
 	var cdBar = $('#countDownBarPanel'+data.id);
-	if (cdBar) {
-		cdBar.RemoveAndDeleteChildren();
-	  	cdBar.DeleteAsync(0);
+	// if (data.opt&&cdBar) {
+	// 	cdBar.RemoveAndDeleteChildren();
+	//   	cdBar.DeleteAsync(0);
+	// }else 
+	if(!cdBar){
+		var cdb = $.CreatePanel('Panel', $('#containerPanel'), 'countDownBarPanel'+data.id);
+		cdb.AddClass("countDownPanel");
+		var cdbTitlePanel = $.CreatePanel('Panel', cdb, 'countDownTitlePanel'+data.id);
+		cdbTitlePanel.AddClass("countDownTitlePanel");
+		var cdbTitle = $.CreatePanel('Label', cdbTitlePanel, 'countDownBarTitle'+data.id);
+		cdbTitle.AddClass("countDownTitle");
+		cdbTitle.text = data.name.format(data.params);
 	}
-	var cdb = $.CreatePanel('Panel', $('#containerPanel'), 'countDownBarPanel'+data.id);
-	cdb.AddClass("countDownPanel");
-	var cdbTitlePanel = $.CreatePanel('Panel', cdb, 'countDownTitlePanel'+data.id);
-	cdbTitlePanel.AddClass("countDownTitlePanel");
-	var cdbTitle = $.CreatePanel('Label', cdbTitlePanel, 'countDownBarTitle'+data.id);
-	cdbTitle.AddClass("countDownTitle");
-	cdbTitle.text = data.name.format(data.params);
+	
 }
 
 (function () {

@@ -18977,12 +18977,16 @@
 						"Delay"     "0.3"
 						"Action"    
 						{
-							"Damage"
-							{
-								"Target"		"ATTACKER"
-								"Type"			"DAMAGE_TYPE_MAGICAL"
-								"Damage"		"%attack_damage*25/100"
-							}
+							"RunScript"
+					        {
+					            "ScriptFile"        "scripts/vscripts/DamageSystem.lua"
+					            "Function"          "Damage"
+					            "formula"           "@attack_damage*25/100"
+					            "Type"              "DAMAGE_TYPE_MAGICAL" // 默认为纯粹伤害
+					            "Flags"             "DOTA_UNIT_TARGET_FLAG_INVULNERABLE" 
+					            "Target"            "ATTACKER"
+					        }
+							
 						}
 					}
 					
@@ -20811,12 +20815,16 @@
 			    			
 			    				"Action"    
 			    				{
-			    					"Damage"
-					    			{
-					    				"Target"		"TARGET"
-					    				"Type"			"DAMAGE_TYPE_MAGICAL"
-					    				"Damage"		"%damage/2"
-					    			}
+			    					"RunScript"
+							        {
+							            "ScriptFile"        "scripts/vscripts/DamageSystem.lua"
+							            "Function"          "Damage"
+							            "formula"           "@damage/2"
+							            "Type"              "DAMAGE_TYPE_MAGICAL" // 默认为纯粹伤害
+							            "Flags"             "DOTA_UNIT_TARGET_FLAG_INVULNERABLE" 
+							            "Target"            "TARGET"
+							        }
+			    					
 					    			"ApplyModifier"
 					    			{
 					    				"ModifierName"	"modifier_qingshuangjian_debuff"
